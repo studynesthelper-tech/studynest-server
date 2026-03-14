@@ -19,7 +19,7 @@ When generating flashcards, always format them as a JSON array inside a \`\`\`fl
 Be concise but thorough. Use markdown formatting. Be encouraging and supportive.`;
 
 const MODELS = {
-  claude:   { provider: "anthropic", id: "claude-sonnet-4-20250514" },
+  claude:   { provider: "anthropic", id: "claude-haiku-4-5-20251001" },
   chatgpt:  { provider: "openai",    id: "gpt-4o-mini" },  // cheaper for free tier
   deepseek: { provider: "deepseek",  id: "deepseek-chat" },
 };
